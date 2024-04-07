@@ -1,23 +1,26 @@
 <template>
     <body class="bg">
+      <h1 class="ms-5 mt-3">Contact</h1>
+      <div class="containerdiv mt-5 shadow-lg">
         <form class="emailform" @submit.prevent="submitForm">
         <div class="form-group">
             <label for="exampleFormControlInput1">Full Name</label>
             <input type="text" class="form-control" id="exampleFormControlInput1" name="name" v-model="form.name" placeholder="John Doe">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label class="labelstyle" for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" name="email"  v-model="form.email" placeholder="name@email.com">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Your Message</label>
+            <label class="labelstyle" for="exampleFormControlTextarea1">Your Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" v-model="form.message"></textarea>
         </div>
         <button class="submitbtn btn btn-primary" type="submit" @click="sent">Send Message</button>
         </form>
+      </div>
 
         <div class="contact-info text-center">
             <p>Email: tannerg977@gmail.com</p>
             <p>GitHub: <a href="https://github.com/TannerG977">TannerG977</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/tanner-green-02391a2a8/">Tanner Green</a></p>
+            <p class="mb-5">LinkedIn: <a href="https://www.linkedin.com/in/tanner-green-02391a2a8/">Tanner Green</a></p>
         </div>
     </body>
   </template>
@@ -82,6 +85,11 @@ function sent(event) {
 </script>
 
 <style lang="css" scoped>
+
+    body {
+        padding-top: 50px;
+    }
+
     .bg {
         background-image: url("/assets/background.png") !important;
         background-size: cover;
@@ -92,12 +100,12 @@ function sent(event) {
     }
 
     .emailform {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    label {
-        margin-top: 20px;
+    .labelstyle {
+        margin-top: 15px;
     }
 
     .submitbtn {
@@ -119,4 +127,14 @@ function sent(event) {
     .contact-info {
         margin-top: 50px;
     }
+
+    .containerdiv {
+    border: solid #688665 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 </style>

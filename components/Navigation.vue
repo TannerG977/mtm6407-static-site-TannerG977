@@ -1,4 +1,5 @@
 <template>
+  <main class="shadow-lg">
     <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -17,13 +18,24 @@
             <NuxtLink class="nav-link fw-medium" to="/Resume">Resume</NuxtLink>
         </li>
         <li class="nav-item">
+            <NuxtLink class="nav-link fw-medium" to="/design">Design/Video</NuxtLink>
+        </li>
+        <li class="nav-item">
+            <NuxtLink class="nav-link fw-medium" to="/coding">Coding</NuxtLink>
+        </li>
+        <li class="nav-item">
             <NuxtLink class="nav-link fw-medium" to="/Contact">Contact</NuxtLink>
         </li>
       </ul>
+      <h4 class="text-center">Tanner Green</h4>
     </div>
   </div>
+  
 </nav>
     </div>
+    <div class="banner text-center">
+    </div>
+  </main>
 </template>
 
 <script setup>
@@ -31,6 +43,19 @@
 </script>
 
 <style lang="css" scoped>
+
+h4 {
+  color: #688665;
+  padding-right: 15px;
+}
+
+main {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
  .nav-link {
   color: #688665 !important ;
  }
@@ -40,5 +65,10 @@
   font-size: 110%;
   text-decoration: underline;
  }
+
+ .banner {
+    background-color: #9fd4aa;
+    height: 20px;
+}
 
 </style>

@@ -61,6 +61,10 @@
   
   <style lang="css" scoped>
 
+  body {
+      padding-top: 50px;
+  }
+
     @media only screen and (min-width: 701px){
 
         .img-2 {
@@ -187,6 +191,7 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){

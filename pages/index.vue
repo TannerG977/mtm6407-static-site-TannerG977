@@ -1,10 +1,8 @@
 <template>
 
     <body class="bg">
-        <div>
-            <h1 class="ms-5 mt-3">Home</h1>
-        </div>
-        <div class="text-center mt-5">
+        <h1 class="ms-5 mt-3">Home</h1>
+        <div class="containerdiv text-center mt-5 shadow-lg">
             <h2>Welcome to my web portfolio.</h2>
             <div>
                 <img class="rounded-circle shadow-lg mt-3" alt="avatar" src="/assets/profilepic.png"
@@ -18,8 +16,8 @@
                     Please click one of the buttons below to navigate to a different page.
                 </p>
                 <NuxtLink to="/Resume"><button type="button" class="btn btn-primary">Resume</button></NuxtLink>
-                <button type="button" class="btn btn-primary">Coding</button>
-                <button type="button" class="btn btn-primary">Design</button>
+                <NuxtLink to="/design"><button type="button" class="btn btn-primary">Design/Video</button></NuxtLink>
+                <NuxtLink to="/coding"><button type="button" class="btn btn-primary">Coding</button></NuxtLink>
                 <NuxtLink to="/contact"><button type="button" class="btn btn-primary">Contact</button></NuxtLink>
             </div>
         </div>
@@ -33,6 +31,11 @@
 </script>
 
 <style lang="css" scoped>
+
+body {
+    padding-top: 50px;
+}
+
 .bg {
     background-image: url("/assets/background.png") !important;
     background-size: cover;
@@ -43,8 +46,8 @@
 }
 
 .text-container {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .btn-primary {
@@ -57,5 +60,15 @@
 .btn-primary:hover {
     background-color: #688665 !important;
     color: white !important;
+}
+
+.containerdiv {
+    border: solid #688665 10px;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 </style>
