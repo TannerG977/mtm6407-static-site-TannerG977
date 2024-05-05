@@ -9,10 +9,10 @@
                     height="200" />
             </div>
             <div class="text-container mt-3">
-                <p>Hi, My name is Tanner Green and I am a recent graduate of Algonquin College's Interactive Media
+                <p>My name is Tanner Green and I am a recent graduate of Algonquin College's Interactive Media
                     Design Program.
-                    This website is a showcase of some of the projects I worked on while studying. This site was coded
-                    using Nuxt and Bootstrap.
+                    This website is a showcase of projects that display the skillset I developed during my studies. This site was coded
+                    using Nuxt, Bootstrap, HTML, CSS, and JavaScript.
                     Please click one of the buttons below to navigate to a different page.
                 </p>
                 <NuxtLink to="/Resume"><button type="button" class="btn btn-primary">Resume</button></NuxtLink>
@@ -70,5 +70,15 @@ body {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px){
+  
+  .containerdiv {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+
 }
 </style>

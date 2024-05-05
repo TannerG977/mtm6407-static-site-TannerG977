@@ -94,7 +94,7 @@
   .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 1001; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -108,7 +108,7 @@
 .modal2 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 1001; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -133,6 +133,7 @@
   display: block;
   width: 80%;
   max-width: 700px;
+  border-radius: 10px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */

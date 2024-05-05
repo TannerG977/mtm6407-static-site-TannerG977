@@ -137,4 +137,14 @@ function sent(event) {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 700px){
+  
+  .containerdiv {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+
+}
 </style>

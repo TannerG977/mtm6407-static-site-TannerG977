@@ -54,6 +54,7 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 
  .nav-link {
@@ -69,6 +70,13 @@ main {
  .banner {
     background-color: #9fd4aa;
     height: 20px;
+}
+
+@media only screen and (max-width: 700px){
+  
+  h4 {
+    display: none;
+  }
 }
 
 </style>
