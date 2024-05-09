@@ -16,7 +16,7 @@
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/69RVT2T5eCE?si=waEUsULkJkw1F3Va" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <h2 class="mt-5">Allercheck Connect (fake technology video)</h2>
-                <p>This is a video that me and two other classmates created as a final project. The goal of the project was to create a commercial for a technology that doesn't exist yet. Our idea was a device that could be stuck into food to scan for present allergens. We created this video using After Effects, Premier Pro, and Mocha AE. I was responsible for all of the app design and app animation present in the video. In addition to this I also helped with some other animations and some of the Mocha tracking.
+                <p>This video was produced by me and two other classmates, as our final project. The goal was to create a commercial for a technology that doesn't exist. Our idea was a food allergy device that could scan for present allergens. We created the video using After Effects, Premier Pro, and Mocha AE. I was responsible for all of the app design and app animation present in the video. In addition to this, I also assisted with other animations and the Mocha tracking.
                 </p>
             </div>
         </div>
@@ -27,7 +27,8 @@
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/VbvbbXO5Axc?si=ReowmCckGA0YW1Eb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <h2 class="mt-5">Promo Video For Inspect This Car</h2>
-                <p>This is a promotional video that me and five of my classmates created for the company: Inspect This Car. I was appointed as team lead for this project. We were requested to film and edit an educational video on the used car market and how the client's service enriches the experience. In addition to leading the project, me and one other classmate were tasked with doing all of the motion graphics and editing the footage. Our final project was showcased at Algonquin College's Applied Research Day where we were awarded 3rd place out of 80 student projects from various different programs. The article can be found <a href="https://algonquincollege.my.site.com/myAC/EC_CommunityNewsDetail?id=a3hOG000000dQQsYAM&name=Students%20and%20faculty%20awarded%20for%20research%20projects%20at%20Applied%20Research%20Day">here</a>.
+                <p>This promotional video, for the company Inspect This Car, was a collaborative effort including me and five of my classmates. I was appointed as team lead for this project. We were requested to film and edit an educational video on the used car market, and how the client's service enriches the experience. In addition to leading the project, me and one other classmate were tasked with doing all of the motion graphics and editing the footage. Our final project was showcased at Algonquin College's Applied Research Day, where we were awarded 3rd place out of 80 student projects from various different programs. The article can be found 
+                    <a href="https://algonquincollege.my.site.com/myAC/EC_CommunityNewsDetail?id=a3hOG000000dQQsYAM&name=Students%20and%20faculty%20awarded%20for%20research%20projects%20at%20Applied%20Research%20Day">here</a>.
                 </p>
             </div>
         </div>
@@ -38,8 +39,7 @@
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/w6Vr4zZP9Ss?si=yIZO73KJRmNbJU7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <h2 class="mt-5">DiefenBunker Documentary</h2>
-                <p>This is a documentary that was a group collaboration between me and some classmates. The documentary is about the history of the DiefenBunker Museum in Carp Ontario.
-                    For this production I designed and animated all of the motion graphics, and composed some of the music. The part i'm most proud of is the intro animation and music.
+                <p>Our Diefenbunker documentary was a group collaboration of three people. The documentary focused on the history of the DiefenBunker Museum in Carp Ontario. For this production, I designed and animated all of the motion graphics, and composed part of the music used in the video. The part I'm most proud of is the introductory animation and music.
                 </p>
             </div>
         </div>  
