@@ -21,7 +21,7 @@
             <NuxtLink class="nav-link fw-medium" to="/design">Design/Video</NuxtLink>
         </li>
         <li class="nav-item">
-            <NuxtLink class="nav-link fw-medium" to="/coding">Coding</NuxtLink>
+            <NuxtLink class="nav-link fw-medium" to="/coding">Web Dev</NuxtLink>
         </li>
         <li class="nav-item">
             <NuxtLink class="nav-link fw-medium" to="/Contact">Contact</NuxtLink>
@@ -69,7 +69,7 @@ main {
 
  .banner {
     background-color: #9fd4aa;
-    height: 20px;
+    height: 10px;
 }
 
 @media only screen and (max-width: 700px){

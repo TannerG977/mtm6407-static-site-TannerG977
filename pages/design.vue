@@ -6,7 +6,7 @@
         </div>
         <div class="text-center mt-5">
             <div class="text-container mt-3">
-                <p>This is a collection of Design/Video projects I've worked on.</p>
+                <h5>This is a collection of Design/Video projects I've worked on.</h5>
             </div>
         </div>
 

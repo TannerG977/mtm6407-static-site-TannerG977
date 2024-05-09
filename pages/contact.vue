@@ -23,6 +23,7 @@
             <p class="mb-5">LinkedIn: <a href="https://www.linkedin.com/in/tanner-green-02391a2a8/">Tanner Green</a></p>
         </div>
     </body>
+    <footer></footer>
   </template>
 
 
@@ -88,6 +89,10 @@ function sent(event) {
 
     body {
         padding-top: 50px;
+    }
+
+    footer {
+      height: 100px;
     }
 
     .bg {

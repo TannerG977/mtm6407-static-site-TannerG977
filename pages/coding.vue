@@ -2,11 +2,11 @@
 
     <body class="bg">
         <div>
-            <h1 class="ms-5 mt-3">Coding</h1>
+            <h1 class="ms-5 mt-3">Web Dev</h1>
         </div>
         <div class="text-center mt-5">
             <div class="text-container mt-3">
-                <p>This is a collection of coding projects I've completed during my time doing website development.</p>
+                <h5>This is a collection of web development projects I've worked on.</h5>
             </div>
         </div>
 

@@ -2,7 +2,7 @@
     <body class="bg">
         <div>
         <h1 class="ms-5 mt-3">Resume</h1>
-        <h2 class="text-center mt-5">Here's my Resume and CV.</h2>
+        <h5 class="text-center mt-5">Here's my Resume and CV.</h5>
         <div class="text-center mt-5 grid">
             <img class="shadow-lg" src="/assets/Resume.png" alt="Resume" style="width:100%;max-width:200px" @click="openModal">
             <img class="img-2 shadow-lg" src="/assets/CV.png" alt="CV" style="width:100%;max-width:200px" @click="openModal2">

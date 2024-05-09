@@ -23,6 +23,8 @@
         </div>
                    
     </body>
+
+    <footer></footer>
 </template>
 
 <script setup>
@@ -34,6 +36,10 @@
 
 body {
     padding-top: 50px;
+}
+
+footer {
+    height: 100px;
 }
 
 .bg {
