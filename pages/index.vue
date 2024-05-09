@@ -17,7 +17,7 @@
                 </p>
                 <NuxtLink to="/Resume"><button type="button" class="btn btn-primary">Resume</button></NuxtLink>
                 <NuxtLink to="/design"><button type="button" class="btn btn-primary">Design/Video</button></NuxtLink>
-                <NuxtLink to="/coding"><button type="button" class="btn btn-primary">Coding</button></NuxtLink>
+                <NuxtLink to="/coding"><button type="button" class="btn btn-primary">Web Dev</button></NuxtLink>
                 <NuxtLink to="/contact"><button type="button" class="btn btn-primary">Contact</button></NuxtLink>
             </div>
         </div>
