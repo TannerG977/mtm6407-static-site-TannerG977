@@ -1,16 +1,8 @@
 <template>
 
     <body class="bg">
-        <div>
-            <h1 class="ms-5 mt-3">Design/Video</h1>
-        </div>
-        <div class="text-center mt-5">
-            <div class="text-container mt-3">
-                <h5>This is a collection of Design/Video projects I've worked on.</h5>
-            </div>
-        </div>
-
-        <div class="containerdiv mt-5 shadow-lg">
+        <div class="firstcontainer mt-5 shadow-lg rounded-4">
+            <h5 class="h2background pt-4 pb-4 rounded-top-4 text-center">This is a collection of Design/Video projects I've worked on.</h5>
             <div class="text-container mt-3">
                 <div class="vidcontainer">
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/69RVT2T5eCE?si=waEUsULkJkw1F3Va" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -21,7 +13,7 @@
             </div>
         </div>
 
-        <div class="containerdiv mt-5 shadow-lg">
+        <div class="containerdiv mt-5 shadow-lg rounded-4">
             <div class="text-container mt-3">
                 <div class="vidcontainer">
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/VbvbbXO5Axc?si=ReowmCckGA0YW1Eb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -33,7 +25,7 @@
             </div>
         </div>
 
-        <div class="containerdiv mt-5 shadow-lg">
+        <div class="containerdiv mt-5 shadow-lg rounded-4">
             <div class="text-container mt-3">
                 <div class="vidcontainer">
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/w6Vr4zZP9Ss?si=yIZO73KJRmNbJU7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -77,6 +69,14 @@ body {
     margin-right: 10%;
 }
 
+.firstcontainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
 .btn-primary {
     background-color: #c4e2bc !important;
     color: black;
@@ -90,8 +90,6 @@ body {
 }
 
 .containerdiv {
-    border: solid #688665 10px;
-    border-radius: 10px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
@@ -123,6 +121,11 @@ iframe {
 @media only screen and (max-width: 700px){
   
     .containerdiv {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .firstcontainer {
         margin-left: 5%;
         margin-right: 5%;
     }

@@ -1,16 +1,9 @@
 <template>
 
     <body class="bg">
-        <div>
-            <h1 class="ms-5 mt-3">Web Dev</h1>
-        </div>
-        <div class="text-center mt-5">
-            <div class="text-container mt-3">
-                <h5>This is a collection of web development projects I've worked on.</h5>
-            </div>
-        </div>
 
-        <div class="containerdiv mt-5 shadow-lg">
+        <div class="firstcontainer mt-5 shadow-lg rounded-4">
+            <h5 class="h2background pt-4 pb-4 rounded-top-4 text-center">This is a collection of web development projects I've worked on.</h5>
             <div class="text-container mt-3">
                 <div class="text-center">
                     <img class="portfolioimg shadow-lg mt-3 rounded" alt="contactbook" src="/assets/contactbook.png"/>
@@ -24,7 +17,7 @@
             </div>
         </div> 
 
-        <div class="containerdiv mt-5 shadow-lg">
+        <div class="containerdiv mt-5 shadow-lg rounded-4">
             <div class="text-container mt-3">
                 <div class="text-center">
                     <img class="portfolioimg shadow-lg mt-3 rounded" alt="reviewsite" src="/assets/reviewsite.png"/>
@@ -38,7 +31,7 @@
             </div>
         </div> 
 
-        <div class="containerdiv mt-5 shadow-lg">
+        <div class="containerdiv mt-5 shadow-lg rounded-4">
             <div class="text-container mt-3">
                 <div class="text-center">
                     <img class="portfolioimg shadow-lg mt-3 rounded" alt="quizsite" src="/assets/QuizSiteLogo.jpg"/>
@@ -71,6 +64,7 @@ body {
     padding-top: 50px;
 }
 
+
 .bg {
     background-image: url("/assets/background.png") !important;
     background-size: cover;
@@ -98,13 +92,19 @@ body {
 }
 
 .containerdiv {
-    border: solid #688665 10px;
-    border-radius: 10px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.firstcontainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding-bottom: 20px;
+    z-index: 1;
 }
 
 .portfolioimg {
@@ -150,6 +150,11 @@ body {
   .containerdiv {
       margin-left: 5%;
       margin-right: 5%;
+  }
+
+  .firstcontainer {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 

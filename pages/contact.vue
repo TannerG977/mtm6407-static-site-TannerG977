@@ -1,8 +1,7 @@
 <template>
     <body class="bg">
       <main>
-      <h1 class="ms-5 mt-3">Contact</h1>
-      <div class="containerdiv mt-5 shadow-lg">
+      <div class="contactdiv mt-5 shadow-lg rounded-4">
         <form class="emailform" @submit.prevent="submitForm">
         <div class="form-group">
             <label for="exampleFormControlInput1">Full Name</label>
@@ -16,13 +15,12 @@
         </div>
         <button class="submitbtn button-18" type="submit" @click="sent">Send Message</button>
         </form>
-      </div>
-
-        <div class="contact-info text-center">
+        <div class="contact-info text-center rounded-bottom-4">
             <p>Email: tannerg977@gmail.com</p>
             <p>GitHub: <a href="https://github.com/TannerG977">TannerG977</a></p>
-            <p class="mb-5">LinkedIn: <a href="https://www.linkedin.com/in/tanner-green-02391a2a8/">Tanner Green</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tanner-green-02391a2a8/">Tanner Green</a></p>
         </div>
+      </div>
       </main>
     </body>
     <footer></footer>
@@ -94,7 +92,7 @@ function sent(event) {
     }
 
     footer {
-      height: 100px;
+      height: 50px;
     }
 
     .bg {
@@ -133,16 +131,18 @@ function sent(event) {
 
     .contact-info {
         margin-top: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #c4e2bc;
+        margin-bottom: none !important;
     }
 
-    .containerdiv {
-    border: solid #688665 10px;
-    border-radius: 10px;
+    .contactdiv {
     margin-left: 20%;
     margin-right: 20%;
     background-color: white;
     padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: none !important;
 }
 
 .button-18 {
@@ -180,7 +180,7 @@ function sent(event) {
 
 @media only screen and (max-width: 700px){
   
-  .containerdiv {
+  .contactdiv {
       margin-left: 5%;
       margin-right: 5%;
   }
