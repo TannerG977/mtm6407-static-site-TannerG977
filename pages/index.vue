@@ -1,6 +1,6 @@
 <template>
     <body class="bg">
-        <div class="containerdiv mt-5 rounded-4 shadow-lg">
+        <div class="containerdiv mt-5 rounded-4 shadow-lg" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="h2background pt-4 pb-4 rounded-top-4 text-center">Welcome to my web portfolio.</h2>
             <div class="text-container mt-3">
               <div class="mt-5">
@@ -11,7 +11,7 @@
                 <p>My name is Tanner Green and I am a recent graduate from the Algonquin College's Interactive Media Design Program. This website is a showcase of projects that display the skillset I have developed during my studies. I coded it using Nuxt, Bootstrap, HTML, CSS, and JavaScript. Click one of the buttons below to navigate to a different page.
                 </p>
               </div>
-                <div class="text-center mt-5 mb-3">
+                <div class="pagebtns text-center mt-5 mb-3">
                   <NuxtLink to="/Resume"><button type="button" class="button-18 m-1">Resume &#9777;</button></NuxtLink>
                   <NuxtLink to="/design"><button type="button" class="button-18 m-1">Design/Video &#9658;</button></NuxtLink>
                   <NuxtLink to="/coding"><button type="button" class="button-18 m-1">Web Dev &#10092; &#10093;</button></NuxtLink>
@@ -122,7 +122,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
   
   .containerdiv {
       margin-left: 5%;
@@ -140,6 +140,13 @@ footer {
     text-align: center;
   }
 
+  .pagebtns {
+    display: grid;
+  }
+
+  .button-18 {
+    width: 100%;
+  }
 
 }
 </style>

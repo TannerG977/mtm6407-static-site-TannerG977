@@ -28,5 +28,9 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["@nuxtjs/google-fonts"]
+  modules: [
+    'nuxt-aos'
+  ]
+
+  
 });

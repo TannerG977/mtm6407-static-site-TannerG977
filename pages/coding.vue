@@ -2,7 +2,7 @@
 
     <body class="bg">
 
-        <div class="firstcontainer mt-5 shadow-lg rounded-4">
+        <div class="firstcontainer mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <h5 class="h2background pt-4 pb-4 rounded-top-4 text-center">This is a collection of web development projects I've worked on.</h5>
             <div class="text-container mt-3">
                 <div class="text-center">
@@ -17,7 +17,7 @@
             </div>
         </div> 
 
-        <div class="containerdiv mt-5 shadow-lg rounded-4">
+        <div class="containerdiv mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-container mt-3">
                 <div class="text-center">
                     <img class="portfolioimg shadow-lg mt-3 rounded" alt="reviewsite" src="/assets/reviewsite.png"/>
@@ -31,7 +31,7 @@
             </div>
         </div> 
 
-        <div class="containerdiv mt-5 shadow-lg rounded-4">
+        <div class="containerdiv mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-container mt-3">
                 <div class="text-center">
                     <img class="portfolioimg shadow-lg mt-3 rounded" alt="quizsite" src="/assets/QuizSiteLogo.jpg"/>

@@ -1,7 +1,7 @@
 <template>
 
     <body class="bg">
-        <div class="firstcontainer mt-5 shadow-lg rounded-4">
+        <div class="firstcontainer mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <h5 class="h2background pt-4 pb-4 rounded-top-4 text-center">This is a collection of Design/Video projects I've worked on.</h5>
             <div class="text-container mt-3">
                 <div class="vidcontainer">
@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div class="containerdiv mt-5 shadow-lg rounded-4">
+        <div class="containerdiv mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-container mt-3">
                 <div class="vidcontainer">
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/VbvbbXO5Axc?si=ReowmCckGA0YW1Eb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="containerdiv mt-5 shadow-lg rounded-4">
+        <div class="containerdiv mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="text-container mt-3">
                 <div class="vidcontainer">
                     <iframe class="shadow-lg mt-3 rounded" src="https://www.youtube.com/embed/w6Vr4zZP9Ss?si=yIZO73KJRmNbJU7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

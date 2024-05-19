@@ -1,7 +1,7 @@
 <template>
     <body class="bg">
       <main>
-      <div class="contactdiv mt-5 shadow-lg rounded-4">
+      <div class="contactdiv mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
         <form class="emailform" @submit.prevent="submitForm">
         <div class="form-group">
             <label for="exampleFormControlInput1">Full Name</label>

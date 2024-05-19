@@ -1,7 +1,7 @@
 <template>
     <body class="bg">
         <div>
-        <div class="text-center mt-5 grid">
+        <div class="text-center mt-5 grid" data-aos="fade-up" data-aos-duration="1000">
             <img class="shadow-lg transition rounded-4 mt-4" src="/assets/Resume.png" alt="Resume" style="width:100%;max-width:300px" @click="openModal">
             <img class="img-2 shadow-lg transition rounded-4 mt-4" src="/assets/CV.png" alt="CV" style="width:100%;max-width:300px" @click="openModal2">
         </div>
