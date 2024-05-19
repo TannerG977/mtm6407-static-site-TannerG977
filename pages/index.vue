@@ -6,7 +6,7 @@
               <div class="mt-5">
                 <div>
                   <img class="avatar rounded-4 shadow-lg me-4" alt="avatar" src="/assets/profilepic.png"
-                      height="175" />
+                      height="150" />
                 </div>
                 <p>My name is Tanner Green and I am a recent graduate from the Algonquin College's Interactive Media Design Program. This website is a showcase of projects that display the skillset I have developed during my studies. I coded it using Nuxt, Bootstrap, HTML, CSS, and JavaScript. Click one of the buttons below to navigate to a different page.
                 </p>

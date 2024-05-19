@@ -2,8 +2,8 @@
     <body class="bg">
         <div>
         <div class="text-center mt-5 grid">
-            <img class="shadow-lg transition rounded-4 mt-4" src="/assets/Resume.png" alt="Resume" style="width:100%;max-width:250px" @click="openModal">
-            <img class="img-2 shadow-lg transition rounded-4 mt-4" src="/assets/CV.png" alt="CV" style="width:100%;max-width:250px" @click="openModal2">
+            <img class="shadow-lg transition rounded-4 mt-4" src="/assets/Resume.png" alt="Resume" style="width:100%;max-width:300px" @click="openModal">
+            <img class="img-2 shadow-lg transition rounded-4 mt-4" src="/assets/CV.png" alt="CV" style="width:100%;max-width:300px" @click="openModal2">
         </div>
         <!-- Modal -->
         <div class="modal" :class="{ 'show': showModal }">
@@ -209,6 +209,7 @@
 
   img {
     margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .img-2 {
