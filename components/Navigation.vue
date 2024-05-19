@@ -61,6 +61,7 @@ main {
   width: 100%;
   z-index: 1000;
   font-family: "Karla", sans-serif;
+  font-size: 110%;
 }
 
  .banner {

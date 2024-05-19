@@ -1,5 +1,6 @@
 <template>
     <body class="bg">
+      <main>
       <h1 class="ms-5 mt-3">Contact</h1>
       <div class="containerdiv mt-5 shadow-lg">
         <form class="emailform" @submit.prevent="submitForm">
@@ -13,7 +14,7 @@
             <label class="labelstyle" for="exampleFormControlTextarea1">Your Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" v-model="form.message"></textarea>
         </div>
-        <button class="submitbtn btn btn-primary" type="submit" @click="sent">Send Message</button>
+        <button class="submitbtn button-18" type="submit" @click="sent">Send Message</button>
         </form>
       </div>
 
@@ -22,6 +23,7 @@
             <p>GitHub: <a href="https://github.com/TannerG977">TannerG977</a></p>
             <p class="mb-5">LinkedIn: <a href="https://www.linkedin.com/in/tanner-green-02391a2a8/">Tanner Green</a></p>
         </div>
+      </main>
     </body>
     <footer></footer>
   </template>
@@ -141,6 +143,39 @@ function sent(event) {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #c4e2bc !important;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover { 
+  background-color: #688665 !important;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 700px){

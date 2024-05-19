@@ -1,11 +1,4 @@
 <template>
-
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    </head>
-
     <body class="bg">
         <h1 class="ms-5 mt-3">Home</h1>
         <div class="containerdiv text-center mt-5 shadow-lg">
@@ -30,11 +23,26 @@
     </footer>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      link: [
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap' },
+      ],
+    }
+  },
+}
+</script>
+
 <style lang="css">
 
 body {
     padding-top: 50px;
     font-family: "Karla", sans-serif;
+    font-size: 110%;
 }
 
 footer {
