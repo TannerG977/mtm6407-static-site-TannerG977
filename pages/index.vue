@@ -1,31 +1,46 @@
 <template>
-    <body class="bg">
-        <div class="containerdiv mt-5 rounded-4 shadow-lg" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="h2background pt-4 pb-4 rounded-top-4 text-center">Welcome to my web portfolio.</h2>
-            <div class="text-container mt-3">
-              <div class="mt-5">
-                <div>
-                  <img class="avatar rounded-4 shadow-lg me-4" alt="avatar" src="/assets/profilepic.png"
-                      height="150" />
-                </div>
-                <p>My name is Tanner Green and I am a recent graduate from the Algonquin College's Interactive Media Design Program. This website is a showcase of projects that display the skillset I have developed during my studies. I coded it using Nuxt, Bootstrap, HTML, CSS, and JavaScript. Click one of the buttons below to navigate to a different page.
-                </p>
-              </div>
-                <div class="pagebtns text-center mt-5 mb-3">
-                  <NuxtLink to="/Resume"><button type="button" class="button-18 m-1">Resume &#9777;</button></NuxtLink>
-                  <NuxtLink to="/design"><button type="button" class="button-18 m-1">Design/Video &#9658;</button></NuxtLink>
-                  <NuxtLink to="/coding"><button type="button" class="button-18 m-1">Web Dev &#10092; &#10093;</button></NuxtLink>
-                  <NuxtLink to="/contact"><button type="button" class="button-18 m-1">Contact &#9993;</button></NuxtLink>
-                </div>
-            </div>
+  <div class="main-bg">
+    <div class="containerdiv">
+      <h2 class="hero-heading">Welcome to my web portfolio.</h2>
+      <div class="intro-section">
+        <img class="avatar" alt="avatar" src="/assets/profilepic.png" height="150" />
+        <div class="intro-text">
+          <p>
+            My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. Feel free to explore using the buttons below.
+          </p>
+          <div class="pagebtns">
+            <NuxtLink to="/Resume"><button class="btn-main">Resume</button></NuxtLink>
+            <NuxtLink to="/design"><button class="btn-main">Design/Video</button></NuxtLink>
+            <NuxtLink to="/coding"><button class="btn-main">Web Dev</button></NuxtLink>
+            <NuxtLink to="/contact"><button class="btn-main">Contact</button></NuxtLink>
+          </div>
         </div>
+      </div>
+      <img id="animated-webp" src="/assets/leaf-animation.webp" alt="Animated WebP" class="webp-animation" />
+    </div>
 
-        
-                   
-    </body>
-
-    <footer>
-    </footer>
+    <!-- Featured Projects Section -->
+    <div class="featured-section containerdiv mt-5">
+      <h2 class="hero-heading text-center mb-4">Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" data-aos="zoom-in" data-aos-once="true">
+          <img src="#" alt="Project 1" />
+          <h4>Project Title One</h4>
+          <p>A brief description of the project, tech used, or design style.</p>
+        </div>
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+          <img src="#" alt="Project 2" />
+          <h4>Project Title Two</h4>
+          <p>This one was built with JavaScript and custom CSS animations.</p>
+        </div>
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+          <img src="#" alt="Project 3" />
+          <h4>Project Title Three</h4>
+          <p>A web development piece using Nuxt and API integrations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -44,108 +59,177 @@ export default {
 
 <style lang="css">
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
-.avatar {
-  float: left;
-}
-
-.h2background {
-  background-color: #c4e2bc;
-}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Playfair+Display:wght@600&display=swap');
 
 body {
-    padding-top: 50px;
-    font-family: "Karla", sans-serif;
-    font-size: 110%;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-footer {
-    height: 50px;
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.bg {
-    background-image: url("/assets/background.png") !important;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-    width: auto;
+.main-bg {
+  background: url('/assets/background.png') center/cover fixed no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  position: relative; /* Important for absolute positioning of .webp */
 }
 
-.text-container {
-    margin-left: 10%;
-    margin-right: 10%;
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* adds vertical space between intro and projects */
 }
 
 .containerdiv {
-    border: none !important;
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: white;
-    padding-bottom: 20px;
+  width: 100%;
 }
 
-.button-18 {
-  align-items: center;
-  background-color: #c4e2bc !important;
-  border: 0;
-  border-radius: 100px;
-  box-sizing: border-box;
-  color: black;
-  cursor: pointer;
-  display: inline-flex;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 20px;
-  max-width: 480px;
-  min-height: 40px;
-  min-width: 0px;
-  overflow: hidden;
-  padding: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+.containerdiv {
+  background: #fff;
+  border-radius: 16px;
+  padding-top:2rem;
+  padding-left:2rem;
+  padding-right:2rem;
+  padding-bottom:3.5rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 960px;
+  margin-top: 100px;
+}
+
+.hero-heading {
+  background: #c4e2bc;
+  padding: 1.5rem;
+  border-radius: 16px 16px 0 0;
   text-align: center;
-  touch-action: manipulation;
-  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
+  font-size: 1.75rem;
 }
 
-.button-18:hover { 
-  background-color: #688665 !important;
-  color: #ffffff;
+.intro-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
+.avatar {
+  border-radius: 16px;
+  max-width: 150px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
 
-@media only screen and (max-width: 1000px){
-  
-  .containerdiv {
-      margin-left: 5%;
-      margin-right: 5%;
-  }
+.intro-text {
+  max-width: 600px;
+}
 
-  .avatar {
-    float: none;
-    width: 100%;
-    height: auto;
-    margin-bottom: 40px;
-  }
+.intro-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
 
-  p {
+.pagebtns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn-main {
+  background-color: #688665;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-main:hover {
+  background-color: #4d654d;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;
     text-align: center;
   }
 
-  .pagebtns {
-    display: grid;
+  .avatar {
+    margin-bottom: 1rem;
   }
 
-  .button-18 {
+  .pagebtns {
+    justify-content: center;
     width: 100%;
+  }
+
+  .btn-main {
+    width: 100%;
+  }
+}
+
+/* Add the styling for the .webp image */
+.webp-animation {
+  position: absolute; /* Position it absolutely */
+  top: 45%; /* Position in the middle */
+  left: 48%;
+  transform: translate(-50%, -50%); /* Center it */
+  z-index: 10; /* Higher z-index to sit on top of other content */
+  max-width: 80%; /* You can adjust the size as needed */
+  pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
+  width: 60%;
+}
+
+@media screen and (max-width: 1072px) {
+  .webp-animation {
+    position: absolute; /* Position it absolutely */
+    top: 53%; /* Position in the middle */
+    left: 48%;
+    transform: translate(-50%, -50%); /* Center it */
+    z-index: 10; /* Higher z-index to sit on top of other content */
+    max-width: 100%; /* You can adjust the size as needed */
+    pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .webp-animation {
+    position: absolute; /* Position it absolutely */
+    top: 56%; /* Position in the middle */
+    left: 48%;
+    transform: translate(-50%, -50%); /* Center it */
+    z-index: 10; /* Higher z-index to sit on top of other content */
+    max-width: 100%; /* You can adjust the size as needed */
+    pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
+    width: 70%;
+  }
+
+}
+@media screen and (max-width: 436px) {
+  .webp-animation {
+    position: absolute; /* Position it absolutely */
+    top: 58%; /* Position in the middle */
+    left: 48%;
+    transform: translate(-50%, -50%); /* Center it */
+    z-index: 10; /* Higher z-index to sit on top of other content */
+    max-width: 100%; /* You can adjust the size as needed */
+    pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
+    width: 79%;
   }
 
 }
