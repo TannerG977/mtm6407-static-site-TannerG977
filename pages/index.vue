@@ -8,15 +8,18 @@
           <p>
             My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. Feel free to explore using the buttons below.
           </p>
-          <div class="pagebtns">
-            <NuxtLink to="/Resume"><button class="btn-main">Resume</button></NuxtLink>
-            <NuxtLink to="/design"><button class="btn-main">Design/Video</button></NuxtLink>
-            <NuxtLink to="/coding"><button class="btn-main">Web Dev</button></NuxtLink>
-            <NuxtLink to="/contact"><button class="btn-main">Contact</button></NuxtLink>
-          </div>
         </div>
+        <div class="pagebtns">
+            <NuxtLink to="/Resume" class="btncontainer"><button class="btn-main">Resume</button></NuxtLink>
+            <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Design/Video</button></NuxtLink>
+            <NuxtLink to="/coding" class="btncontainer"><button class="btn-main">Web Dev</button></NuxtLink>
+            <NuxtLink to="/contact" class="btncontainer"><button class="btn-main">Contact</button></NuxtLink>
+          </div>
       </div>
-      <img id="animated-webp" src="/assets/leaf-animation.webp" alt="Animated WebP" class="webp-animation" />
+      <div class="webp-wrapper">
+        <img src="/assets/leaf-animation.webp" alt="Animated WebP" class="webp-animation" />
+        <img src="/assets/leaf-animation.webp" alt="Flipped Animated WebP" class="webp-animation flipped" />
+      </div>
     </div>
 
     <!-- Featured Projects Section -->
@@ -79,7 +82,6 @@ h2 {
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  position: relative; /* Important for absolute positioning of .webp */
 }
 
 .main-bg {
@@ -95,10 +97,7 @@ h2 {
 .containerdiv {
   background: #fff;
   border-radius: 16px;
-  padding-top:2rem;
-  padding-left:2rem;
-  padding-right:2rem;
-  padding-bottom:3.5rem;
+  padding: 2rem;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
   width: 80%;
   max-width: 960px;
@@ -130,12 +129,13 @@ h2 {
 
 .intro-text {
   max-width: 600px;
+  text-align: left;
 }
 
+
 .intro-text p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
 }
 
 .pagebtns {
@@ -161,6 +161,22 @@ h2 {
   transform: translateY(-2px);
 }
 
+.webp-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.webp-animation {
+  width: 275px; 
+  transform: scaleX(1); 
+  height: 50px;
+}
+
+.webp-animation.flipped {
+  transform: scaleX(-1); 
+}
+
 @media screen and (max-width: 768px) {
   .intro-section {
     flex-direction: column;
@@ -176,61 +192,30 @@ h2 {
     width: 100%;
   }
 
+  .btncontainer {
+    width: 100%;
+  }
+
   .btn-main {
     width: 100%;
   }
-}
 
-/* Add the styling for the .webp image */
-.webp-animation {
-  position: absolute; /* Position it absolutely */
-  top: 45%; /* Position in the middle */
-  left: 48%;
-  transform: translate(-50%, -50%); /* Center it */
-  z-index: 10; /* Higher z-index to sit on top of other content */
-  max-width: 80%; /* You can adjust the size as needed */
-  pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
-  width: 60%;
-}
-
-@media screen and (max-width: 1072px) {
   .webp-animation {
-    position: absolute; /* Position it absolutely */
-    top: 53%; /* Position in the middle */
-    left: 48%;
-    transform: translate(-50%, -50%); /* Center it */
-    z-index: 10; /* Higher z-index to sit on top of other content */
-    max-width: 100%; /* You can adjust the size as needed */
-    pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
-    width: 70%;
-  }
-
+  width: 150px; 
+  margin-top: 1rem;
+  transform: scaleX(1);
+  height: auto;
 }
 
-@media screen and (max-width: 750px) {
-  .webp-animation {
-    position: absolute; /* Position it absolutely */
-    top: 56%; /* Position in the middle */
-    left: 48%;
-    transform: translate(-50%, -50%); /* Center it */
-    z-index: 10; /* Higher z-index to sit on top of other content */
-    max-width: 100%; /* You can adjust the size as needed */
-    pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
-    width: 70%;
-  }
-
+.containerdiv {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 960px;
+  margin-top: 100px;
 }
-@media screen and (max-width: 436px) {
-  .webp-animation {
-    position: absolute; /* Position it absolutely */
-    top: 58%; /* Position in the middle */
-    left: 48%;
-    transform: translate(-50%, -50%); /* Center it */
-    z-index: 10; /* Higher z-index to sit on top of other content */
-    max-width: 100%; /* You can adjust the size as needed */
-    pointer-events: none; /* Makes sure the animation doesn't interfere with other elements */
-    width: 79%;
-  }
-
 }
+
 </style>
