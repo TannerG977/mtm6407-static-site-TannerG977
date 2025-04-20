@@ -1,5 +1,5 @@
 <template>
-  <div class="main-bg">
+  <div class="bg">
     <div class="containerdiv">
       <h2 class="hero-heading">Welcome to my web portfolio.</h2>
       <div class="intro-section">
@@ -26,28 +26,48 @@
     <div class="featured-section containerdiv mt-5">
       <h2 class="hero-heading text-center mb-4">Featured Projects</h2>
       <div class="project-grid">
-        <div class="project-card" data-aos="zoom-in" data-aos-once="true">
-          <img src="#" alt="Project 1" />
-          <h4>Project Title One</h4>
-          <p>A brief description of the project, tech used, or design style.</p>
-        </div>
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
-          <img src="#" alt="Project 2" />
-          <h4>Project Title Two</h4>
-          <p>This one was built with JavaScript and custom CSS animations.</p>
-        </div>
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
-          <img src="#" alt="Project 3" />
-          <h4>Project Title Three</h4>
-          <p>A web development piece using Nuxt and API integrations.</p>
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+            <div class="project-card" data-aos="zoom-in" data-aos-once="true">
+              <img src="/assets/DFA-AD thumbnail.png" alt="thumbnail of the Deck foot anchor lead magent ad video" class="mb-2"/>
+              <h4>Deck Foot Anchor Facebook AD Video</h4>
+              <p>A high-performing Facebook ad I designed, shot, and edited. The campaign drove over 500K views and 20-30 daily email signups.</p>
+              <button class="featurebtn" @click="openModal">Learn More</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+              <img src="#" alt="Project 2" />
+              <h4>Project Title Two</h4>
+              <p>This one was built with JavaScript and custom CSS animations.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+              <img src="#" alt="Project 3" />
+              <h4>Project Title Three</h4>
+              <p>This one was built with JavaScript and custom CSS animations.</p>
+            </div>
+          </div>
         </div>
       </div>
+      </div>
     </div>
+
+  <div class="modal" :class="{ 'show': showModal }">
+    <span class="close" @click="closeModal">&times;</span>
+    <DFAFBAD />
   </div>
 </template>
 
 <script>
+import { ref } from 'vue'
+import DFAFBAD from '/components/DFA-FB-AD.vue'
+
 export default {
+  components: {
+    DFAFBAD
+  },
   head() {
     return {
       link: [
@@ -57,8 +77,29 @@ export default {
       ],
     }
   },
+  setup() {
+    const showModal = ref(false)
+    const modalCaption = ref('')
+
+    const openModal = () => {
+      showModal.value = true
+      modalCaption.value = 'Resume (Tanner Green - 2024)'
+    }
+
+    const closeModal = () => {
+      showModal.value = false
+    }
+
+    return {
+      showModal,
+      modalCaption,
+      openModal,
+      closeModal
+    }
+  }
 }
 </script>
+
 
 <style lang="css">
 
@@ -76,18 +117,33 @@ h2 {
   font-weight: 600;
 }
 
-.main-bg {
-  background: url('/assets/background.png') center/cover fixed no-repeat;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
+.bg {
+    background-image: url("/assets/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+  }
+
+  .bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -2;
 }
 
-.main-bg {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem; /* adds vertical space between intro and projects */
+.bg {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6); /* subtle layer to soften */
+  z-index: 0;
 }
 
 .containerdiv {
@@ -101,7 +157,9 @@ h2 {
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
   width: 80%;
   max-width: 960px;
-  margin-top: 100px;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-heading {
@@ -216,6 +274,73 @@ h2 {
   max-width: 960px;
   margin-top: 100px;
 }
+
+.supimg {
+  display: none;
+}
+
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1001; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal.show {
+  display: block;
+}
+
+.close {
+  position: fixed; /* Instead of absolute */
+  top: 20px;
+  right: 30px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: 1002; /* One level above modal */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.featurebtn {
+  background-color: #688665;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+}
+
+.featurebtn:hover {
+  background-color: #4d654d;
+  transform: translateY(-2px);
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.featured-section {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>
