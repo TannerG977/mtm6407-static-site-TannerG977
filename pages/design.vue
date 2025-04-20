@@ -1,9 +1,11 @@
 <template>
     <body class="bg">
       <div class="container pt-12" data-aos="fade-up" data-aos-duration="1000">
-        <h2 class="text-center text-3xl font-semibold bg-white p-6 rounded-3xl shadow-lg mb-10">
-          A Collection of Video Projects I've Worked On
-        </h2>
+        <div class="title">
+            <h2 class="text-center hero-heading">
+            A Collection of Video Projects I've Worked On
+            </h2>
+        </div>
   
         <div class="row g-4">
           <div
@@ -62,7 +64,6 @@
   
   <style scoped>
   body {
-    padding-top: 50px;
     font-family: 'Inter', sans-serif;
   }
   
@@ -114,6 +115,27 @@
     font-size: 0.95rem;
     line-height: 1.5rem;
   }
+
+  .title {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  margin-top: 125px;
+  margin-bottom: 20px;
+}
+
+.hero-heading {
+  background: #c4e2bc;
+  padding: 1.5rem;
+  border-radius: 16px 16px 0 0;
+  text-align: center;
+  font-size: 1.75rem;
+}
   
   @media (max-width: 767px) {
     h2 {
