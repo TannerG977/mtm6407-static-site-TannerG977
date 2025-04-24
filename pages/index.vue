@@ -6,12 +6,12 @@
         <img class="avatar" alt="avatar" src="/assets/profilepic.png" height="150" />
         <div class="intro-text">
           <p>
-            My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. Feel free to explore using the buttons below.
+            My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. I coded this portfolio from scratch using nuxt.js, html, css, javascript, and bootstrap. Feel free to explore using the buttons below.
           </p>
         </div>
         <div class="pagebtns">
             <NuxtLink to="/Resume" class="btncontainer"><button class="btn-main">Resume</button></NuxtLink>
-            <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Design/Video</button></NuxtLink>
+            <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Video</button></NuxtLink>
             <NuxtLink to="/coding" class="btncontainer"><button class="btn-main">Web Dev</button></NuxtLink>
             <NuxtLink to="/contact" class="btncontainer"><button class="btn-main">Contact</button></NuxtLink>
           </div>
@@ -30,7 +30,7 @@
           <div class="col-12 col-md-4 mb-4">
             <div class="project-card" data-aos="zoom-in" data-aos-once="true">
               <img src="/assets/DFA-AD thumbnail.png" alt="thumbnail of the Deck foot anchor lead magent ad video" class="mb-2"/>
-              <h4>Deck Foot Anchor Facebook AD Video</h4>
+              <h4>Deck Foot Anchor Facebook AD</h4>
               <p>A high-performing Facebook ad I designed, shot, and edited. The campaign drove over 500K views and 20-30 daily email signups.</p>
               <button class="featurebtn" @click="openModal">Learn More</button>
             </div>
@@ -38,15 +38,15 @@
           <div class="col-12 col-md-4 mb-4">
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
               <img src="#" alt="Project 2" />
-              <h4>Project Title Two</h4>
-              <p>This one was built with JavaScript and custom CSS animations.</p>
+              <h4>Coming Soon</h4>
+              <p>This project is loading</p>
             </div>
           </div>
           <div class="col-12 col-md-4 mb-4">
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
               <img src="#" alt="Project 3" />
-              <h4>Project Title Three</h4>
-              <p>This one was built with JavaScript and custom CSS animations.</p>
+              <h4>Coming Soon</h4>
+              <p>This project is loading.</p>
             </div>
           </div>
         </div>

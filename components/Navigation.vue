@@ -23,7 +23,7 @@
             <NuxtLink class="nav-link button-18 me-2" to="/Resume">Resume</NuxtLink>
         </li>
         <li class="nav-item">
-            <NuxtLink class="nav-link button-18 me-2" to="/design">Design/Video</NuxtLink>
+            <NuxtLink class="nav-link button-18 me-2" to="/design">Video</NuxtLink>
         </li>
         <li class="nav-item">
             <NuxtLink class="nav-link button-18 me-2" to="/coding">Web Dev</NuxtLink>
@@ -32,7 +32,6 @@
             <NuxtLink class="nav-link button-18 me-2" to="/Contact">Contact</NuxtLink>
         </li>
       </ul>
-      <h4 class="text-center">Tanner Green</h4>
     </div>
   </div>
   
