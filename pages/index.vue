@@ -12,7 +12,7 @@
         <div class="pagebtns">
             <NuxtLink to="/Resume" class="btncontainer"><button class="btn-main">Resume</button></NuxtLink>
             <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Video</button></NuxtLink>
-            <NuxtLink to="/coding" class="btncontainer"><button class="btn-main">Web Dev</button></NuxtLink>
+            <NuxtLink to="/webdev" class="btncontainer"><button class="btn-main">Web Dev</button></NuxtLink>
             <NuxtLink to="/contact" class="btncontainer"><button class="btn-main">Contact</button></NuxtLink>
           </div>
       </div>

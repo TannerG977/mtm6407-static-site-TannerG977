@@ -26,7 +26,7 @@
             <NuxtLink class="nav-link button-18 me-2" to="/design">Video</NuxtLink>
         </li>
         <li class="nav-item">
-            <NuxtLink class="nav-link button-18 me-2" to="/coding">Web Dev</NuxtLink>
+            <NuxtLink class="nav-link button-18 me-2" to="/webdev">Web Dev</NuxtLink>
         </li>
         <li class="nav-item">
             <NuxtLink class="nav-link button-18 me-2" to="/Contact">Contact</NuxtLink>

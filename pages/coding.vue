@@ -1,6 +1,6 @@
 <template>
 
-    <body class="bg">
+    <div class="bg">
 
         <div class="firstcontainer mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
             <h5 class="h2background pt-4 pb-4 rounded-top-4 text-center">This is a collection of web development projects I've worked on.</h5>
@@ -50,7 +50,7 @@
                 <p>More Coming Soon!</p>
             </div>
         </div>
-    </body>
+    </div>
 </template>
 
 <script setup>

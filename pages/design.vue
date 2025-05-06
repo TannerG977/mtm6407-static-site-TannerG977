@@ -1,5 +1,5 @@
 <template>
-   <body class="bg">
+   <div class="bg">
       <div class="container pt-12" data-aos="fade-up" data-aos-duration="1000">
         <div class="title">
             <h2 class="text-center hero-heading">
@@ -37,7 +37,7 @@
   
         
       </div>
-    </body>
+    </div>
   </template>
   
   <script setup>
@@ -45,8 +45,7 @@
     {
       title: "Deck Foot Anchor Facebook AD",
       url: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fdecksgo%2Fvideos%2F981598563791993%2F&show_text=false&width=560&t=0",
-      description: `A high-performing Facebook ad I designed, shot, and edited for a digital campaign that reached over 500K views across all placements. The video opens with a Deck Foot Anchor logo, enhanced by light 3D work and rotoscoping to create an engaging, polished hook. This campaign was very successful and drove 20–30 daily email sign-ups.
-`,
+      description: `A high-performing Facebook ad I designed, shot, and edited for a digital campaign that reached over 500K views across all placements. The video opens with a Deck Foot Anchor logo, enhanced by light 3D work and rotoscoping to create an engaging, polished hook. This campaign was very successful and drove 20–30 daily email sign-ups.`,
     },
     {
       title: "The Beast Of Gevaudan",
@@ -56,7 +55,12 @@
     {
       title: "Deck Renovation Series for DecksGo",
       url: "https://www.youtube.com/embed/videoseries?si=jzjvepY8AS7svBBk&amp;list=PLlGhyDiT_fi5OE-fXEBKCLVHS9V3wA_mV",
-      description: `This playlist is a video series documenting the early stages of my work with Titan Building Products. I shot and edited extensive footage of CEO Richard Bergman as he renovated his personal deck, capturing detailed how-tos, product installs, and behind-the-scenes moments. The series showcases many hours of hands-on building, offering viewers both inspiration and insight.`,
+      description: `This playlist is a video series documenting the early stages of my work with Titan Building Products. I shot and edited extensive footage of CEO Richard Bergman as he renovated his personal deck, capturing detailed how-tos, product installs, and behind-the-scenes moments. The series showcases many hours of hands-on building, offering viewers both inspiration and insight. The playlist includes all parts, as well as accompanying reels/shorts.`,
+    },
+    {
+      title: "Product Information Videos",
+      url: "https://www.youtube.com/embed/videoseries?si=-LBZCaJob1p4HBwc&amp;list=PLlGhyDiT_fi7b55tTGNWOPr9lyudSE8Ez",
+      description: `As a videographer and content creator at DecksGo, I filmed, edited, and produced a series of explainer videos for new product launches. The project included full-length videos and short-form versions for social media. The embedded playlist above features the complete collection of both formats.`,
     },
     {
       title: "Allercheck Connect (fake technology video)",
