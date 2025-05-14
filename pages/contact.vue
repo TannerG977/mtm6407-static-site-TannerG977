@@ -11,7 +11,7 @@
         </div>
         <div class="form-group">
             <label class="labelstyle" for="exampleFormControlTextarea1">Your Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" v-model="form.message"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="message" v-model="form.message"></textarea>
         </div>
         <button class="submitbtn button-18" type="submit" @click="sent">Send Message</button>
         </form>
