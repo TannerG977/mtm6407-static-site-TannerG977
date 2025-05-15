@@ -156,7 +156,7 @@ The project was presented at Algonquin's Applied Research Day, where we were hon
 
   </script>
   
-  <style scoped>
+  <style global>
   body {
     font-family: 'Inter', sans-serif;
   }
