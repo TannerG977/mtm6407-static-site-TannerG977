@@ -3,7 +3,7 @@
     <div class="containerdiv">
       <h2 class="hero-heading">Welcome to my web portfolio.</h2>
       <div class="intro-section">
-        <img class="avatar" alt="avatar" src="/assets/profilepic.png" height="150" />
+        <img class="avatar" alt="avatar" src="/assets/profilepic3.jpg" height="150" />
         <div class="intro-text">
           <p>
             My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. I coded this portfolio from scratch using nuxt.js, html, css, javascript, and bootstrap. Feel free to explore using the buttons below.

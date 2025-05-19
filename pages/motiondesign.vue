@@ -5,7 +5,7 @@
         <div class="titlemd">
             <h2 class="hero-heading">Motion Graphics & Design Portfolio.</h2>
             <div class="intro-section2">
-                <img class="avatar2" alt="avatar" src="/assets/profilepic.png"/>
+                <img class="avatar2" alt="avatar" src="/assets/profilepic3.jpg"/>
                 <div class="intro-text2">
                     <p>
                         Hi, I’m Tanner Green, a motion graphics designer and videographer with 3 years of experience in motion graphics and animation. This portfolio showcases a diverse range of work, including branding and motion graphics for both tech and creative industries. My expertise spans across 2D/3D animation, art direction, and storyboarding, with a strong focus on delivering impactful, visually engaging assets.
