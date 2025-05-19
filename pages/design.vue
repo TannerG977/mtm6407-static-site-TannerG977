@@ -91,7 +91,7 @@
     background-attachment: fixed;
     background-position: center;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
   }
 

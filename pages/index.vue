@@ -3,7 +3,7 @@
     <div class="containerdiv">
       <h2 class="hero-heading">Welcome to my web portfolio.</h2>
       <div class="intro-section">
-        <img class="avatar" alt="avatar" src="/assets/profilepic3.jpg" height="150" />
+        <img class="avatar" alt="avatar" src="/assets/profilepic3.jpg"/>
         <div class="intro-text">
           <p>
             My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. I coded this portfolio from scratch using nuxt.js, html, css, javascript, and bootstrap. Feel free to explore using the buttons below.
@@ -21,6 +21,28 @@
         <img src="/assets/leaf-animation.webp" alt="Flipped Animated WebP" class="webp-animation flipped" />
       </div>
     </div>
+
+    <!--logo slider-->
+    <div class="logosdiv">
+    <div class="logoscontainer">
+      <div class="slider">
+        <div class="logos-track">
+          <img src="/assets/logos/logo_1-png.webp" alt="decksgo logo" />
+          <img src="/assets/logos/Titan_logo.png" alt="titan logo" />
+          <img src="/assets/logos/TOPS Logo.png" alt="TOPS Connectors logo" />
+          <img src="/assets/logos/itc.912ab1493b2f3d483d15.webp" alt="inspect this car logo" />
+          <img src="/assets/logos/XIRCLS_logo-O_2PSYuC.png" alt="XIRCLS Logo" />
+
+          <!-- Repeat logos once -->
+          <img src="/assets/logos/logo_1-png.webp" alt="decksgo logo" />
+          <img src="/assets/logos/Titan_logo.png" alt="titan logo" />
+          <img src="/assets/logos/TOPS Logo.png" alt="TOPS Connectors logo" />
+          <img src="/assets/logos/itc.912ab1493b2f3d483d15.webp" alt="inspect this car logo" />
+          <img src="/assets/logos/XIRCLS_logo-O_2PSYuC.png" alt="XIRCLS Logo" />
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Featured Projects Section -->
     <div class="featured-section containerdiv mt-5">
@@ -123,7 +145,7 @@ h2 {
     background-attachment: fixed;
     background-position: center;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     padding-bottom: 100px;
   }
@@ -181,7 +203,7 @@ h2 {
 
 .avatar {
   border-radius: 16px;
-  max-width: 150px;
+  max-width: 200px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
@@ -279,6 +301,7 @@ h2 {
   display: none;
 }
 
+
 }
 
 .modal {
@@ -342,5 +365,64 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.logoscontainer {
+  overflow: hidden;
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    .logos {
+      width: 250px;
+      display: inline-block;
+      margin: 0px 0;
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s 
+          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+
+.logosdiv {
+  width: 80%;
+  max-width: 960px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logos-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.logos-track img {
+  width: 200px;
+  height: auto;
+  margin: 0 1rem;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Keyframe animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 </style>

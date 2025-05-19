@@ -95,6 +95,11 @@ main {
   font-size: 15px;
 }
 
+.btn-main:hover {
+  background-color: #4d654d;
+  transform: translateY(-2px);
+}
+
 .button-18:hover { 
   background-color: #688665 !important;
   color: #ffffff;
