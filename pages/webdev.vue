@@ -39,10 +39,17 @@
    </template>
    
    <script setup>
-    import DFAFBAD from '/components/DFA-FB-AD.vue'
+    import FreeDeckPlans from '~/components/freeDeckPlans.vue';
+import DFAFBAD from '/components/DFA-FB-AD.vue'
     import balusterCalculator from '/components/balusterCalculator.vue'
 
    const webdevs = [
+    {
+       title: "Deck Plans Distribution Site (Redesign, development & SEO Optimization)",
+       src: "/assets/plans.decksgo.com.png",
+       description: `This is a simple contact book, web application I created. The website was created using Vue 3, Vite, Vue Router and Bootstrap. The site allows the user to create contacts and edit existing ones. In addition, you can search contacts, filter alphabetically by last name or first name and delete existing contacts. All contact data is saved to a user's local storage so when the page is reloaded, contacts remain on the page.`,
+       component: FreeDeckPlans,
+     },
     {
        title: "Baluster Quantity Calculator",
        src: "/assets/baluster calculator.png",

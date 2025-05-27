@@ -11,8 +11,9 @@
         </div>
         <div class="pagebtns">
             <NuxtLink to="/Resume" class="btncontainer"><button class="btn-main">Resume</button></NuxtLink>
-            <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Video</button></NuxtLink>
             <NuxtLink to="/webdev" class="btncontainer"><button class="btn-main">Web Dev</button></NuxtLink>
+            <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Video</button></NuxtLink>
+            <NuxtLink to="/graphicdesign" class="btncontainer"><button class="btn-main">Graphic Design</button></NuxtLink>
             <NuxtLink to="/contact" class="btncontainer"><button class="btn-main">Contact</button></NuxtLink>
           </div>
       </div>
@@ -234,6 +235,7 @@ h2 {
   font-size: 1rem;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-main:hover {
