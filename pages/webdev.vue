@@ -56,12 +56,12 @@ import DFAFBAD from '/components/DFA-FB-AD.vue'
        description: `This is a simple contact book, web application I created. The website was created using Vue 3, Vite, Vue Router and Bootstrap. The site allows the user to create contacts and edit existing ones. In addition, you can search contacts, filter alphabetically by last name or first name and delete existing contacts. All contact data is saved to a user's local storage so when the page is reloaded, contacts remain on the page.`,
        component: balusterCalculator,
      },
-     {
-       title: "Contact Book",
-       src: "/assets/contactbook.png",
-       description: `This is a simple contact book, web application I created. The website was created using Vue 3, Vite, Vue Router and Bootstrap. The site allows the user to create contacts and edit existing ones. In addition, you can search contacts, filter alphabetically by last name or first name and delete existing contacts. All contact data is saved to a user's local storage so when the page is reloaded, contacts remain on the page.`,
-       component: DFAFBAD,
-     },
+     //{
+       //title: "Contact Book",
+       //: "/assets/contactbook.png",
+       //description: `This is a simple contact book, web application I created. The website was created using Vue 3, Vite, Vue Router and Bootstrap. The site allows the user to create contacts and edit existing ones. In addition, you can search contacts, filter alphabetically by last name or first name and delete existing contacts. All contact data is saved to a user's local storage so when the page is reloaded, contacts remain on the page.`,
+       //component: DFAFBAD,
+     //},
    ];
 
     const showModal = ref(false)

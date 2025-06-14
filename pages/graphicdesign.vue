@@ -12,7 +12,7 @@
                 <div class="card">
                 <img src="/assets/graphicdesign/soil test kit second headline mobile.png" class="card-img-top" alt="soil test kit email banner" />
                 <div class="card-body">
-                    <p class="card-text">Example caption 1</p>
+                    <p class="card-text">Soil Test Kit Email Banner</p>
                 </div>
                 </div>
             </div>
@@ -20,7 +20,15 @@
                 <div class="card">
                 <img src="/assets/graphicdesign/killbill.png" class="card-img-top" alt="Kill Bill Vector Art" />
                 <div class="card-body">
-                    <p class="card-text">Example caption 2</p>
+                    <p class="card-text">Kill Bill Vector Art</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                <img src="\assets\graphicdesign\topsAddOnInstall.png" class="card-img-top" alt="TOPS pergola connectors install line art" />
+                <div class="card-body">
+                    <p class="card-text">TOPS Pergola Connectors Line Art (Installation Manual)</p>
                 </div>
                 </div>
             </div>
@@ -28,15 +36,15 @@
                 <div class="card">
                 <img src="/assets/graphicdesign/keapbannerBF-1.png" class="card-img-top" alt="Black Friday Email Banner" />
                 <div class="card-body">
-                    <p class="card-text">Example caption 2</p>
+                    <p class="card-text">Black Friday Email Banner</p>
                 </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card">
-                <img src="/assets/graphicdesign/LouverTops Box Sticker.png" class="card-img-top" alt="Black Friday Email Banner" />
+                <img src="/assets/graphicdesign/LouverTops Box Sticker.png" class="card-img-top" alt="Louver Tops Box Sticker" />
                 <div class="card-body">
-                    <p class="card-text">Example caption 2</p>
+                    <p class="card-text">Louver Tops Box Sticker</p>
                 </div>
                 </div>
             </div>
@@ -44,15 +52,15 @@
                 <div class="card">
                 <img src="assets/graphicdesign/St. Patricks Day (last chance).png" class="card-img-top" alt="St. Patricks Day Email Banner" />
                 <div class="card-body">
-                    <p class="card-text">Example caption 2</p>
+                    <p class="card-text">St. Patricks Day Email Banner</p>
                 </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card">
-                <img src="assets/graphicdesign/snapnlockwebad.png" class="card-img-top" alt="St. Patricks Day Email Banner" />
+                <img src="\assets\graphicdesign\pergolaBracketInstall.png" class="card-img-top" alt="TOPS pergola bracket install line art" />
                 <div class="card-body">
-                    <p class="card-text">Example caption 2</p>
+                    <p class="card-text">TOPS Pergola Bracket Line Art (Installation Manual)</p>
                 </div>
                 </div>
             </div>

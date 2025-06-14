@@ -52,17 +52,18 @@
         <div class="row">
           <div class="col-12 col-md-4 mb-4">
             <div class="project-card" data-aos="zoom-in" data-aos-once="true">
-              <img src="/assets/DFA-AD thumbnail.png" alt="thumbnail of the Deck foot anchor lead magent ad video" class="mb-2"/>
-              <h4>Deck Foot Anchor Facebook AD</h4>
-              <p>A high-performing Facebook ad I designed, shot, and edited. The campaign drove over 500K views and 20-30 daily email signups.</p>
-              <button class="featurebtn" @click="openModal">Learn More</button>
+              <img src="\assets\plans.decksgo_featuredimg.png" alt="thumbnail of the Deck foot anchor lead magent ad video" class="mb-2"/>
+              <h4>Plans Distribution Site (plans.decksgo.com)</h4>
+              <p>Redesigned Plans.DecksGo.com, boosting SEO, UX, and lead generation via custom Attentive CRM integration, visuals, and dynamic product promotion.</p>
+              <button class="featurebtn" @click="openModal('freeDeckPlans')">Learn More</button>
             </div>
           </div>
           <div class="col-12 col-md-4 mb-4">
-            <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
-              <img src="#" alt="Project 2" />
-              <h4>Coming Soon</h4>
-              <p>This project is loading</p>
+            <div class="project-card" data-aos="zoom-in" data-aos-once="true">
+              <img src="/assets/DFA-AD thumbnail.png" alt="plans.decksgo.com updated homepage" class="mb-2"/>
+              <h4>Deck Foot Anchor Facebook AD</h4>
+              <p>A high-performing Facebook ad I designed, shot, and edited. The campaign drove over 500K views and 20-30 daily email signups.</p>
+              <button class="featurebtn" @click="openModal('DFAFBAD')">Learn More</button>
             </div>
           </div>
           <div class="col-12 col-md-4 mb-4">
@@ -77,19 +78,21 @@
       </div>
     </div>
 
-  <div class="modal" :class="{ 'show': showModal }">
-    <span class="close" @click="closeModal">&times;</span>
-    <DFAFBAD />
-  </div>
+  <div id="modal" class="modal" :class="{ 'show': showModal }">
+    <button class="close" @click="closeModal">&times;</button>
+    <component :is="modalComponent" v-if="modalComponent" />
+</div>
 </template>
 
 <script>
 import { ref } from 'vue'
 import DFAFBAD from '/components/DFA-FB-AD.vue'
+import freeDeckPlans from '~/components/freeDeckPlans.vue'
 
 export default {
   components: {
-    DFAFBAD
+    DFAFBAD,
+    freeDeckPlans
   },
   head() {
     return {
@@ -100,22 +103,23 @@ export default {
       ],
     }
   },
-  setup() {
+ setup() {
     const showModal = ref(false)
-    const modalCaption = ref('')
+    const modalComponent = ref(null)
 
-    const openModal = () => {
+    const openModal = (componentName) => {
       showModal.value = true
-      modalCaption.value = 'Resume (Tanner Green - 2024)'
+      modalComponent.value = componentName
     }
 
     const closeModal = () => {
       showModal.value = false
+      modalComponent.value = null
     }
 
     return {
       showModal,
-      modalCaption,
+      modalComponent,
       openModal,
       closeModal
     }
@@ -213,6 +217,16 @@ h2 {
   text-align: left;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.project-card p {
+  flex-grow: 1;
+}
 
 .intro-text p {
   font-size: 1.2rem;
