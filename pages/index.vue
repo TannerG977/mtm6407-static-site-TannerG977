@@ -67,10 +67,11 @@
             </div>
           </div>
           <div class="col-12 col-md-4 mb-4">
-            <div class="project-card" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
-              <img src="#" alt="Project 3" />
-              <h4>Coming Soon</h4>
-              <p>This project is loading.</p>
+            <div class="project-card" data-aos="zoom-in" data-aos-once="true">
+              <img src="/assets/graphicDesignGallery.png" alt="plans.decksgo.com updated homepage" class="mb-2"/>
+              <h4>Graphic Design Showcase Gallery</h4>
+              <p>Explore my graphic design showcase featuring personal projects and professional work across web, print, branding, and polished visual communication.</p>
+              <NuxtLink to="/graphicdesign" class="btncontainer"><button class="featurebtn" @click="openModal('DFAFBAD')">Learn More</button></NuxtLink>
             </div>
           </div>
         </div>

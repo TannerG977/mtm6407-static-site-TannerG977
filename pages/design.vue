@@ -12,10 +12,8 @@
             class="col-12 col-md-6 col-lg-4"
             v-for="(video, index) in videos"
             :key="index"
-            data-aos="fade-up"
-            data-aos-delay="index * 100"
           >
-            <div class="rounded-4 shadow-lg bg-white overflow-hidden h-100 d-flex flex-column">
+            <div class="rounded-4 shadow-lg bg-white overflow-hidden h-100 d-flex flex-column" data-aos="fade-up" data-aos-delay="index * 100">
               <div class="vidcontainer">
                 <iframe
                   :src="video.url"
@@ -42,6 +40,11 @@
   
   <script setup>
   const videos = [
+    {
+      title: "Louver Tops Promo Video",
+      url: "https://www.youtube.com/embed/videoseries?si=O132K1TkEov384P5&amp;list=PLlGhyDiT_fi7cCKdZh0LewJmILSVOkgXO",
+      description: `A product launch video I shot and edited to showcase our LouverTops system, combining step-by-step installation footage with dynamic b-roll and music to build excitement. Designed to educate and generate hype, the video played a key role in our launch campaign and helped drive early customer interest.`,
+    },
     {
       title: "Deck Foot Anchor Facebook AD",
       url: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fdecksgo%2Fvideos%2F981598563791993%2F&show_text=false&width=560&t=0",

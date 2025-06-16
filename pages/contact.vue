@@ -4,10 +4,10 @@
       <div class="contactdiv mt-5 shadow-lg rounded-4" data-aos="fade-up" data-aos-duration="1000">
         <form class="emailform" @submit.prevent="submitForm">
         <div class="form-group">
-            <label for="exampleFormControlInput1">Full Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="name" v-model="form.name" placeholder="John Doe">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="name" v-model="form.name">
             <label class="labelstyle" for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" name="email"  v-model="form.email" placeholder="name@email.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="email"  v-model="form.email">
         </div>
         <div class="form-group">
             <label class="labelstyle" for="exampleFormControlTextarea1">Your Message</label>
