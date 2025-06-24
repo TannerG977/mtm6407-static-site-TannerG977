@@ -10,6 +10,14 @@
          <div class="row grid g-4" data-masonry='{"percentPosition": true }'>
   <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
     <div class="card">
+      <img src="/assets/graphicdesign/TOPS_Homeline_Instructions_2025_Page_1.png" class="card-img-top" alt="TOPS Connectors Install Guide page 1"/>
+      <div class="card-body">
+        <p class="card-text">TOPS Connectors Installation Guide (Page 1)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+    <div class="card">
       <img src="/assets/graphicdesign/soil test kit second headline mobile.png" class="card-img-top" alt="soil test kit email banner" />
       <div class="card-body">
         <p class="card-text">Soil Test Kit Email Banner</p>
@@ -34,6 +42,14 @@
   </div>
   <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
     <div class="card">
+      <img src="/assets/graphicdesign/StaticVSAdjustable Saddle.jpg" class="card-img-top" alt="DFA Post Saddle Instagram Post"/>
+      <div class="card-body">
+        <p class="card-text">Adjustable Deck Foot Anchor (Instagram Post)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+    <div class="card">
       <img src="/assets/graphicdesign/keapbannerBF-1.png" class="card-img-top" alt="Black Friday Email Banner" />
       <div class="card-body">
         <p class="card-text">Black Friday Email Banner</p>
@@ -45,6 +61,14 @@
       <img src="/assets/graphicdesign/topsshadesail10x10.png" class="card-img-top" alt="TOPS Shade Sail box sticker" />
       <div class="card-body">
         <p class="card-text">TOPS Connectors: Shade Sail Box Sticker</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+    <div class="card">
+      <img src="/assets/graphicdesign/TOPS_Homeline_Instructions_2025_Page_2.png" class="card-img-top" alt="TOPS Connectors Install Guide page 1"/>
+      <div class="card-body">
+        <p class="card-text">TOPS Connectors Installation Guide (Page 2)</p>
       </div>
     </div>
   </div>

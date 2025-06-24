@@ -20,7 +20,7 @@
           <NuxtLink class="nav-link button-18 me-2" aria-current="page" to="/">Home</NuxtLink>
         </li>
         <li class="nav-item">
-            <NuxtLink class="nav-link button-18 me-2" to="/Resume">Resume</NuxtLink>
+            <NuxtLink class="nav-link button-18 me-2" to="/Tanner Green Resume - 2025.pdf" external target="_blank">Resume</NuxtLink>
         </li>
         <li class="nav-item">
             <NuxtLink class="nav-link button-18 me-2" to="/webdev">Web Dev</NuxtLink>

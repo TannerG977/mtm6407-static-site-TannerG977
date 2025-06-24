@@ -10,7 +10,7 @@
           </p>
         </div>
         <div class="pagebtns">
-            <NuxtLink to="/Resume" class="btncontainer"><button class="btn-main">Resume</button></NuxtLink>
+            <NuxtLink to="/Tanner Green Resume - 2025.pdf" external target="_blank" class="btncontainer"><button class="btn-main">Resume</button></NuxtLink>
             <NuxtLink to="/webdev" class="btncontainer"><button class="btn-main">Web Dev</button></NuxtLink>
             <NuxtLink to="/design" class="btncontainer"><button class="btn-main">Video</button></NuxtLink>
             <NuxtLink to="/graphicdesign" class="btncontainer"><button class="btn-main">Graphic Design</button></NuxtLink>
