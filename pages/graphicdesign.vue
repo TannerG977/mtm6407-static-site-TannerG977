@@ -7,8 +7,8 @@
              </h2>
          </div>
    
-         <div class="row grid g-4" data-masonry='{"percentPosition": true }'>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+         <div class="row grid g-4" data-masonry='{"percentPosition": true }' data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/TOPS_Homeline_Instructions_2025_Page_1.png" class="card-img-top" alt="TOPS Connectors Install Guide page 1"/>
       <div class="card-body">
@@ -16,7 +16,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/soil test kit second headline mobile.png" class="card-img-top" alt="soil test kit email banner" />
       <div class="card-body">
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/topstri-top4x4.png" class="card-img-top" alt="TOPS TRI-TOP box sticker" />
       <div class="card-body">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/killbill.png" class="card-img-top" alt="Kill Bill Vector Art" />
       <div class="card-body">
@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/StaticVSAdjustable Saddle.jpg" class="card-img-top" alt="DFA Post Saddle Instagram Post"/>
       <div class="card-body">
@@ -48,7 +48,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/keapbannerBF-1.png" class="card-img-top" alt="Black Friday Email Banner" />
       <div class="card-body">
@@ -56,7 +56,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/topsshadesail10x10.png" class="card-img-top" alt="TOPS Shade Sail box sticker" />
       <div class="card-body">
@@ -64,7 +64,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/TOPS_Homeline_Instructions_2025_Page_2.png" class="card-img-top" alt="TOPS Connectors Install Guide page 1"/>
       <div class="card-body">
@@ -72,7 +72,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/pergolaBracketInstall.png" class="card-img-top" alt="TOPS pergola bracket install line art" />
       <div class="card-body">
@@ -80,7 +80,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/louvertops2.png" class="card-img-top" alt="louver tops connecting to hubs" />
       <div class="card-body">
@@ -88,7 +88,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/LouverTops Box Sticker.png" class="card-img-top" alt="Louver Tops Box Sticker" />
       <div class="card-body">
@@ -96,7 +96,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/topsAddOnInstall.png" class="card-img-top" alt="TOPS pergola connectors install line art" />
       <div class="card-body">
@@ -104,7 +104,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/St. Patricks Day (last chance).png" class="card-img-top" alt="St. Patricks Day Email Banner" />
       <div class="card-body">
@@ -112,7 +112,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/topspostbase.png" class="card-img-top" alt="TOPS Post Base box sticker" />
       <div class="card-body">
@@ -120,7 +120,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/squidart.png" class="card-img-top" alt="squid art" />
       <div class="card-body">
@@ -128,7 +128,7 @@
       </div>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-4 grid-item" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
       <img src="/assets/graphicdesign/louvertops1.png" class="card-img-top" alt="louver tops connecting to shade board" />
       <div class="card-body">
