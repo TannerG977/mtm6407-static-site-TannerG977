@@ -6,7 +6,7 @@
         <img class="avatar" alt="avatar" src="/assets/profilepic3.jpg"/>
         <div class="intro-text">
           <p>
-            My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. I coded this portfolio from scratch using nuxt.js, html, css, javascript, and bootstrap. Feel free to explore using the buttons below.
+            My name is Tanner Green, and I am a web developer, videographer, and graphic designer. This site showcases projects that reflect the skills I’ve developed throughout my professional and academic career. I coded this portfolio using nuxt.js, vue.js, html, css, javascript, and bootstrap. Feel free to explore using the buttons below.
           </p>
         </div>
         <div class="pagebtns">

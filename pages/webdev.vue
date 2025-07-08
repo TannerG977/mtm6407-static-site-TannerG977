@@ -42,12 +42,19 @@
     import FreeDeckPlans from '~/components/freeDeckPlans.vue';
 import DFAFBAD from '/components/DFA-FB-AD.vue'
     import balusterCalculator from '/components/balusterCalculator.vue'
+import TopsConnectors from '~/components/topsConnectors.vue';
 
    const webdevs = [
+    //{
+      // title: "Head of Development & Design for topsconnectors.com",
+      // src: "assets/Tops_Site_Screengrab.png",
+      // description: `I designed and developed topsconnectors.com to showcase a new modular pergola hardware system for Titan Building Products. Using WordPress, JavaScript, and some PHP, I built a fast, responsive site that highlights the product’s flexibility with dynamic content and animated 3D renders. I created the full layout and branding in Figma, then collaborated with a 3D artist to bring the product story to life through immersive visuals and clear, conversion-focused design.`,
+      // component: TopsConnectors,
+    // },
     {
        title: "Deck Plans Distribution Site (Redesign, development & SEO Optimization)",
        src: "/assets/plans.decksgo.com.png",
-       description: `This is a simple contact book, web application I created. The website was created using Vue 3, Vite, Vue Router and Bootstrap. The site allows the user to create contacts and edit existing ones. In addition, you can search contacts, filter alphabetically by last name or first name and delete existing contacts. All contact data is saved to a user's local storage so when the page is reloaded, contacts remain on the page.`,
+       description: `I led the full redesign and development of Plans.DecksGo.com, a high-performing lead-generation microsite offering free downloadable deck plans. My work included a modern UX overhaul, visual asset creation, and custom app development to connect Gravity Forms to Attentive CRM via API and AI-assisted PHP. A focused SEO strategy helped the site achieve a top 3 Google ranking for “free deck plans PDF,” outperforming major competitors like Home Depot and driving consistent, high-quality leads.`,
        component: FreeDeckPlans,
      },
     {
