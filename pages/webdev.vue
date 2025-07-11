@@ -45,12 +45,12 @@ import DFAFBAD from '/components/DFA-FB-AD.vue'
 import TopsConnectors from '~/components/topsConnectors.vue';
 
    const webdevs = [
-    //{
-      // title: "Head of Development & Design for topsconnectors.com",
-      // src: "assets/Tops_Site_Screengrab.png",
-      // description: `I designed and developed topsconnectors.com to showcase a new modular pergola hardware system for Titan Building Products. Using WordPress, JavaScript, and some PHP, I built a fast, responsive site that highlights the product’s flexibility with dynamic content and animated 3D renders. I created the full layout and branding in Figma, then collaborated with a 3D artist to bring the product story to life through immersive visuals and clear, conversion-focused design.`,
-      // component: TopsConnectors,
-    // },
+    {
+       title: "Head of Development & Design for topsconnectors.com",
+       src: "assets/Tops_Site_Screengrab.png",
+       description: `I designed and developed topsconnectors.com to showcase a new modular pergola hardware system for Titan Building Products. Using WordPress, JavaScript, and some PHP, I built a fast, responsive site that highlights the product’s flexibility with dynamic content and animated 3D renders. I created the full layout and branding in Figma, then collaborated with a 3D artist to bring the product story to life through immersive visuals and clear, conversion-focused design.`,
+       component: TopsConnectors,
+     },
     {
        title: "Deck Plans Distribution Site (Redesign, development & SEO Optimization)",
        src: "/assets/plans.decksgo.com.png",

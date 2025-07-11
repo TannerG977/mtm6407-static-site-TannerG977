@@ -3,42 +3,28 @@
       <h2 class="mb-4">Project Lead: Design & Development for topsconnectors.com</h2>
       <p class="mb-4">TopsConnectors.com was created at the request of Titan Building Products CEO Richard Bergman to serve as a dedicated showcase for the company’s new pergola hardware line—TOPS Connectors. I was tasked with designing and developing a branded sister site that would highlight the system’s modular features while directing traffic back to our e-commerce platform at <strong>store.decksgo.com</strong>. The goal was to establish a clean, product-focused experience that could grow alongside the expanding product line.</p>
       <a class="btn-main" href="https://topsconnectors.com/" target="blank">Visit topsconnectors.com</a>
-
-
-        <div class="row align-items-start d-flex align-items-center mt-5 mb-5">
-            <div class="col-12 col-md-6">
-          <div>
-            <h2 class="mt-4 mt-md-0">Re-Design</h2>
-            <p>
-             As part of the redesign, I focused on improving the overall user experience by implementing a cleaner, more intuitive interface. One of the key enhancements was the addition of a <strong>secondary navigation system</strong> that allows users to easily filter deck plans by type—such as ground level, elevated, or multi-tier. <br><br>This improvement significantly reduced friction in the user journey and helped users quickly find the plans most relevant to their needs. I also overhauled the site’s visual style to better align with our brand, introducing a more modern, consistent look across typography, spacing, and component design.
-            </p>
-          </div>
-        </div>
-            <div class="col-12 col-md-6">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="home" aria-selected="true">New Home Page</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#old" type="button" role="tab" aria-controls="profile" aria-selected="false">Old Home Page</button>
-            </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active mt-4" id="new" role="tabpanel" aria-labelledby="home-tab"><img src="assets\plans site screengrabs\new homepage.png" alt="new plans.decksgo.com homepage"></div>
-            <div class="tab-pane fade mt-4" id="old" role="tabpanel" aria-labelledby="profile-tab"><img src="assets\plans site screengrabs\old homepage.png" alt="old plans.decksgo.com homepage"></div>
-        </div>
-
-        </div>
+      <div class="mt-5 mb-5">
+        <h2>Design Phase</h2>
       </div>
+      <img src="/assets/topsconnectors wireframes.png" alt="wireframes">
+    
       
       <div class="row align-items-start d-flex align-items-center mt-5 mb-5">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <div>
-            <img src="\assets\plans site screengrabs\plans.decksgo wireframes.png" alt="wireframes">
+            <img src="/assets/topsconnectors wireframes2.png" alt="wireframes2">
           </div>
         </div>
-        <div class="col-12 col-md-6">
-          <p>To create the updated design, I used <strong>Adobe Illustrator</strong> and <strong>Photoshop</strong> to develop custom visual assets, including plan thumbnails, banners, and promotional graphics. I then mapped out the new layout and user flows in <strong>Figma</strong>, building wireframes that guided the redesign. Once the design was finalized, I implemented all changes using <strong>HTML</strong> and <strong>CSS</strong> directly within the theme’s page templates, ensuring a seamless transition from concept to live site. These enhancements not only modernized the aesthetic but also contributed to faster page performance and increased user engagement.</p>
+        <div class="col-12 col-md-8">
+          <p>
+            The initial design phase for <strong>TOPS Connectors</strong> began with <strong>wireframing</strong> and <strong>prototyping</strong> in Figma, where we laid the groundwork for a <strong>streamlined</strong> and <strong>intuitive user experience</strong>. While some elements evolved throughout development—such as <strong>layout refinements</strong> and a color change from 
+            <span style="color: #794a4a;"><strong>#794a4a</strong></span> to 
+            <span style="color: #a8690a;"><strong>#a8690a</strong></span> to better align with our parent brand’s identity—the core <strong>UX principles</strong> remained consistent. 
+            The original design philosophy centered around a <strong>category-based navigation system</strong>, with sections like <strong>Shade</strong>, <strong>Privacy</strong>, and <strong>TOPS Connectors</strong>. 
+            Within each category, a <strong>sub-navigation</strong> would allow users to browse individual products <strong>seamlessly</strong> without jumping to separate pages. 
+            This approach enabled <strong>dynamic updates</strong> across the page, including product images, descriptions, components, and store links, ensuring a <strong>smooth</strong> and <strong>cohesive</strong> browsing experience.
+          </p>
+
 
         </div>
       </div>
@@ -46,38 +32,38 @@
       <div class="row align-items-start d-flex align-items-center mt-5 mb-5">
         <div class="col-12 col-md-6">
           <div>
-            <h2>Development</h2>
-             <p>On the development side, one of the first issues I addressed was the lack of product visibility on the site. Despite high traffic, the page wasn’t promoting any of our storefront items. To solve this, I designed a set of promotional <strong>product cards</strong> and strategically placed them between existing <strong>deck plan cards</strong>. I used styled div elements interspersed throughout the layout, then wrote a <strong>JavaScript array</strong> to dynamically assign each card a <strong>background image</strong> and <strong>button link</strong> to relevant products. <br><br> To keep the experience fresh and prevent ad fatigue, I implemented <strong>randomized positioning</strong> for the cards on each page load. This lightweight solution allowed us to monetize traffic without compromising the user experience.</p>
+            <h2>Development Phase</h2>
+            <p>
+              One of the first things we developed for <strong>TOPS Connectors</strong> was a <strong>custom JavaScript application</strong> designed to play seamless <strong>WebP animations</strong> created by our in-house 3D artist. When users clicked on a specific connector, the application would dynamically display an animation that <strong>added or removed modular components</strong> depending on the selected product. This visually reinforced the core <strong>selling point</strong> of the system—<strong>modularity</strong>. As users cycled through connectors like the TRI-TOP™, QUATRA-TOP™, and PENTA-TOP™, transition animations made the evolution between each product type clear and <strong>interactive</strong>, helping customers understand how the system could <strong>grow or adapt</strong> to their needs in real time.
+            </p>
+
             
           </div>
         </div>
         <div class="col-12 col-md-6">
-         <img src="\assets\plans site screengrabs\product cards.png">
+         <img src="/assets/tops animation app.webp" alt="tops webp javascript animation">
 
         </div>
       </div>
 
       <div class="row align-items-start d-flex align-items-center mt-5 mb-5">
-       
-       
-           <p>The second major development task involved migrating our email sign-up process from Keap to <strong>Attentive CRM</strong>. Since there is no native Gravity Forms integration with Attentive, I built a custom connection using their <strong>Subscribers API</strong>. This required mapping form fields to Attentive’s contact schema, developing a <strong>custom app within the CRM</strong>, and writing <strong>PHP functions</strong> to handle the data transfer securely.<br><br>I used <strong>AI-assisted coding</strong> to generate and validate the PHP logic inserted into the site’s <strong>functions.php</strong> file. Now, whenever a user submits a form to download a deck plan, their information is automatically passed to Attentive, creating new subscribers in real-time—streamlining our lead capture and follow-up efforts.</p>
-      </div>
-
-      <div class="row align-items-start d-flex align-items-center mt-5 mb-5">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-6">
           <div>
-            <h2>SEO Optimization</h2>
-            <p>
-              To maximize visibility and organic traffic, I conducted a targeted <strong>SEO optimization</strong> campaign focused on the high-intent keyword phrase <strong>“free deck plans PDF.”</strong> This included refining on-page elements such as <strong>meta titles</strong>, <strong>descriptions</strong>, and <strong>header tags</strong> to align with search intent, as well as optimizing <strong>image alt text</strong> and improving overall <strong>page load speed.</strong><br><br> 
-              I also implemented structured content and internal linking strategies to enhance crawlability and user engagement. As a result of these efforts, Plans.DecksGo.com now ranks consistently within the <strong>top 3 search results</strong> for this term—outperforming industry giants like Home Depot—and driving steady, qualified traffic to our email capture funnel.
-            </p>
+            <img src="/assets/tops animation for shade.webp" alt="tops webp javascript animation final version">  
           </div>
         </div>
-        <div class="col-12 col-md-4">
-          <img src="/assets/plans site screengrabs/performance.png" class="img-fluid" alt="Performance Metrics">
+        <div class="col-12 col-md-6">
+          <p>
+            The same <strong>logic</strong> used for the TOPS animation system was later adapted across each <strong>category page</strong>—including <strong>Shade</strong>, <strong>Privacy</strong>, and <strong>Connectors</strong>—to create a consistent and interactive product browsing experience. Instead of loading separate product pages, users could seamlessly <strong>cycle through product variants</strong> within a single page. As they did, the application would dynamically update the <strong>product description</strong>, <strong>component list</strong>, <strong>imagery</strong>, and <strong>buy links</strong> in real time. This approach kept the experience fast and fluid while reinforcing the idea that all TOPS products are part of a <strong>modular and unified system</strong>.
+          </p>
         </div>
       </div>
-      
+      <div class="mt-5 mb-5">
+        <p class="mb-4">
+          The website was ultimately built using <strong>WordPress</strong> with <strong>Beaver Builder</strong> for layout control, alongside <strong>custom JavaScript</strong>, <strong>HTML</strong>, and <strong>CSS</strong> for interactive and visual features. I also implemented some targeted <strong>PHP</strong> on the Pergola Kits page to enable <strong>filtering functionality</strong>, helping users quickly find the right configuration. This blend of tools allowed us to deliver a fast, modular, and brand-consistent digital experience that showcases the full potential of the TOPS Connector system.
+        </p>
+        <a class="btn-main" href="https://topsconnectors.com/" target="blank">Visit topsconnectors.com</a>
+      </div>
     </div>
   </template>
 
