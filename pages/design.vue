@@ -41,6 +41,11 @@
   <script setup>
   const videos = [
     {
+      title: "TOPS Connectors Motion Graphic Logo/Categories",
+      url: "https://www.youtube.com/embed/EDMc-STu5qA?si=0z5BH-s9fjUcYBhl",
+      description: `This animated logo was created in After Effects for TOPS Connectors and is designed for use in future promotional videos and branded content. The animation not only brings the TOPS Connectors logo to life with smooth, professional motion, but also highlights key product categories—Shade, Privacy, and Add-Ons—showcasing the modular versatility of the system while reinforcing the brand’s identity.`,
+    },
+    {
       title: "Louver Tops Promo Video",
       url: "https://www.youtube.com/embed/videoseries?si=O132K1TkEov384P5&amp;list=PLlGhyDiT_fi7cCKdZh0LewJmILSVOkgXO",
       description: `A product launch video I shot and edited to showcase our LouverTops system, combining step-by-step installation footage with dynamic b-roll and music to build excitement. Designed to educate and generate hype, the video played a key role in our launch campaign and helped drive early customer interest.`,
