@@ -41,6 +41,11 @@
   <script setup>
   const videos = [
     {
+      title: "Motion Graphics Demo Reel (coffee subscription service)",
+      url: "https://youtube.com/embed/dD51iIqqFVo?feature=shared",
+      description: `This motion graphics demo reel features a short explanatory video made in After Effects for a fictional coffee subscription service. It guides viewers through a fun quiz to personalize their coffee blend, delivered monthly on the first. The project highlights clean design, smooth transitions, and clear storytelling to communicate the concept in a concise, engaging way.`,
+    },
+    {
       title: "TOPS Connectors Motion Graphic Logo/Categories",
       url: "https://www.youtube.com/embed/EDMc-STu5qA?si=0z5BH-s9fjUcYBhl",
       description: `This animated logo was created in After Effects for TOPS Connectors and is designed for use in future promotional videos and branded content. The animation not only brings the TOPS Connectors logo to life with smooth, professional motion, but also highlights key product categories—Shade, Privacy, and Add-Ons—showcasing the modular versatility of the system while reinforcing the brand’s identity.`,
