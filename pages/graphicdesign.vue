@@ -10,17 +10,17 @@
          <div class="row grid g-4" data-masonry='{"percentPosition": true }' data-aos="fade-up" data-aos-duration="1000">
   <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
-      <img src="/assets/graphicdesign/TOPS_Homeline_Instructions_2025_Page_1.png" class="card-img-top" alt="TOPS Connectors Install Guide page 1"/>
+      <img src="\assets\graphicdesign\Nolan Engineering Insta Footing.webp" class="card-img-top" alt="Insta-Footing Install Guide"/>
       <div class="card-body">
-        <p class="card-text">TOPS Connectors Installation Guide (Page 1)</p>
+        <p class="card-text">Insta-Footing Install Guide</p>
       </div>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
-      <img src="/assets/graphicdesign/soil test kit second headline mobile.png" class="card-img-top" alt="soil test kit email banner" />
+      <img src="/assets/graphicdesign/LouverTops Box Sticker.png" class="card-img-top" alt="Louver Tops Box Sticker" />
       <div class="card-body">
-        <p class="card-text">Soil Test Kit Email Banner</p>
+        <p class="card-text">Louver Tops Box Sticker</p>
       </div>
     </div>
   </div>
@@ -37,6 +37,14 @@
       <img src="/assets/graphicdesign/killbill.png" class="card-img-top" alt="Kill Bill Vector Art" />
       <div class="card-body">
         <p class="card-text">Kill Bill Vector Art</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 grid-item">
+    <div class="card">
+      <img src="/assets/graphicdesign/TOPS_Homeline_Instructions_2025_Page_1.png" class="card-img-top" alt="TOPS Connectors Install Guide page 1"/>
+      <div class="card-body">
+        <p class="card-text">TOPS Connectors Installation Guide (Page 1)</p>
       </div>
     </div>
   </div>
@@ -90,9 +98,9 @@
   </div>
   <div class="col-12 col-md-6 col-lg-4 grid-item">
     <div class="card">
-      <img src="/assets/graphicdesign/LouverTops Box Sticker.png" class="card-img-top" alt="Louver Tops Box Sticker" />
+      <img src="/assets/graphicdesign/soil test kit second headline mobile.png" class="card-img-top" alt="soil test kit email banner" />
       <div class="card-body">
-        <p class="card-text">Louver Tops Box Sticker</p>
+        <p class="card-text">Soil Test Kit Email Banner</p>
       </div>
     </div>
   </div>

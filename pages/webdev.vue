@@ -22,7 +22,24 @@
                     <div class="p-4 d-flex flex-column justify-content-between h-100">
                     <h5 class="fw-bold mb-3">{{ webdev.title }}</h5>
                     <p v-html="webdev.description" class="mb-0 text-sm"></p>
-                    <button v-bind:id="webdev.id"  @click="openModal(webdev.component)">More Details</button>
+                     <a
+                        v-if="webdev.link"
+                        :href="webdev.link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn"
+                      >
+                        Visit Site
+                      </a>
+
+                      <!-- Otherwise, show the button that opens the modal -->
+                      <button
+                        v-else
+                        v-bind:id="webdev.id"
+                        @click="openModal(webdev.component)"
+                      >
+                        More Details
+                      </button>
                     </div>
                 </div>
                 </div>
@@ -46,8 +63,14 @@ import TopsConnectors from '~/components/topsConnectors.vue';
 
    const webdevs = [
     {
+       title: "Re-design Of TitanBP Homepage",
+       src: "/assets/titanbp homepage.webp",
+       description: `I redesigned the homepage of TitanBP.com, the flagship site for Titan Building Products, to modernize its first impression and better align with the brand’s identity. Starting with wireframes and mockups in Figma, I crafted a clean, user-focused layout that highlights Titan’s product lines with stronger visual hierarchy and clearer navigation. Once approved, I brought the design to life using Elementor on WordPress, ensuring responsive performance and consistency with the broader site. It was an honor to be entrusted with reshaping the company’s front-facing website, setting the foundation for future updates across the entire platform.`,
+       link: "https://titanbp.com",
+     },
+    {
        title: "Head of Development & Design for topsconnectors.com",
-       src: "assets/Tops_Site_Screengrab.png",
+       src: "/assets/Tops_Site_Screengrab.png",
        description: `I designed and developed topsconnectors.com to showcase a new modular pergola hardware system for Titan Building Products. Using WordPress, JavaScript, and some PHP, I built a fast, responsive site that highlights the product’s flexibility with dynamic content and animated 3D renders. I created the full layout and branding in Figma, then collaborated with a 3D artist to bring the product story to life through immersive visuals and clear, conversion-focused design.`,
        component: TopsConnectors,
      },
@@ -204,6 +227,24 @@ import TopsConnectors from '~/components/topsConnectors.vue';
 
 button:hover {
   background-color: #4d654d;
+  transform: translateY(-2px);
+}
+
+ a {
+  background-color: #688665;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #4d654d;
+  color: white;
   transform: translateY(-2px);
 }
  
