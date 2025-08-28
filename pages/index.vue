@@ -146,7 +146,7 @@ h2 {
 }
 
 .bg {
-    background-image: url("/assets/background.png");
+    background-image: url("/assets/background.webp");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
