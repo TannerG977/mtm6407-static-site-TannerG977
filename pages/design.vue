@@ -41,6 +41,11 @@
   <script setup>
   const videos = [
     {
+      title: "Deck Foot Anchor Facebook AD",
+      url: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fdecksgo%2Fvideos%2F981598563791993%2F&show_text=false&width=560&t=0",
+      description: `A high-performing Facebook ad I designed, shot, and edited for a digital campaign that reached over 500K views across all placements. The video opens with a Deck Foot Anchor logo, enhanced by light 3D work and rotoscoping to create an engaging, polished hook. This campaign was very successful and drove 20–30 daily email sign-ups.`,
+    },
+    {
       title: "Motion Graphics Demo Reel (coffee subscription service)",
       url: "https://youtube.com/embed/dD51iIqqFVo?feature=shared",
       description: `This motion graphics demo reel features a short explanatory video made in After Effects for a fictional coffee subscription service. It guides viewers through a fun quiz to personalize their coffee blend, delivered monthly on the first. The project highlights clean design, smooth transitions, and clear storytelling to communicate the concept in a concise, engaging way.`,
@@ -54,11 +59,6 @@
       title: "Louver Tops Promo Video",
       url: "https://www.youtube.com/embed/videoseries?si=O132K1TkEov384P5&amp;list=PLlGhyDiT_fi7cCKdZh0LewJmILSVOkgXO",
       description: `A product launch video I shot and edited to showcase our LouverTops system, combining step-by-step installation footage with dynamic b-roll and music to build excitement. Designed to educate and generate hype, the video played a key role in our launch campaign and helped drive early customer interest.`,
-    },
-    {
-      title: "Deck Foot Anchor Facebook AD",
-      url: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fdecksgo%2Fvideos%2F981598563791993%2F&show_text=false&width=560&t=0",
-      description: `A high-performing Facebook ad I designed, shot, and edited for a digital campaign that reached over 500K views across all placements. The video opens with a Deck Foot Anchor logo, enhanced by light 3D work and rotoscoping to create an engaging, polished hook. This campaign was very successful and drove 20–30 daily email sign-ups.`,
     },
     {
       title: "The Beast Of Gevaudan",
